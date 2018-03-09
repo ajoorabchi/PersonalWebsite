@@ -1,0 +1,29 @@
+<HTML><body><h3><p>Automatically assigned DDC number: <FONT COLOR="#cc6600">005453</FONT></p><p>Manually assigned DDC number: <FONT COLOR="#008000">005453</FONT></p></h3><p><FONT size="+1">Number of references: </FONT>0</p><p><FONT size="+1">Title: </FONT>Compilation of Functional Languages Using Flow Graph Analysis</p><p><FONT size="+1">Author: </FONT>
+   </p><p><FONT size="+1">Author: </FONT>
+   </p><p><FONT size="+1">Author: </FONT>
+   </p><p><FONT size="+1">Subject: </FONT>Pieter H. Hartel,Hugh Glaser,John M. Wild Compilation of Functional Languages Using Flow Graph Analysis</p><p><FONT size="+1">Description: </FONT>syntax:
+G ::= fV 1 ; : : : ; V n g (A graph is a set of vertices)
+V ::= a ; LAMBDA ; ; ; (d; e) j (a; b) ; BIND ; ; ; d
+j (a; b) ; SWITCH ; ; ; (d; e) j (a; b; c) ; MERGE ; ; ; d
+j ; ; SOURCE ; v ; d j a ; SINK ; ; ; ;
+j ; ; IMPORT ; i ; d j a ; EXPORT ; i ; ;
+j a ; CALL ; ; ; d j a ; RETURN ; ; ; d
+j a ; USE ; ; ; d
+Semantic domains:
+ffi 1 ; ffi 2 ; : : : 2Dev
+¸
+= Error + Num + Bool + Func + f? l ; Nilg + [Dev Theta Dev ]
+ffl 2Env = Ident ! Dev (Environments)
+Error =f? e g (? e is a type error)
+Num =f? n ; 0; : : :g (Domain of numeric values)
+Bool =f? b ; True; Falseg
+Func =Dev ! Dev
+Semantic functions:
+Fix : Func !Dev
+if : Bool !Dev !Dev !Dev
+Def : Graph ! Edge !Env !Dev
+Exp : Graph !Dev
+Figure 7: Abstract syntax, and syntactic and semantic domains of a flow graph
+second argument of the application of Def. The third argument to Def is a local environment,
+which expresses the meaning of all primitive functions and also contains bindings of all i k to the
+fixed poi...</p><p><FONT size="+1">Contributor: </FONT>The Pennsylvania State University CiteSeer Archives</p><p><FONT size="+1">Publisher: </FONT>unknown</p><p><FONT size="+1">Date: </FONT>1996-07-21</p><p><FONT size="+1">Pubyear: </FONT>1994</p><p><FONT size="+1">Format: </FONT>ps</p><p><FONT size="+1">Identifier: </FONT>http://citeseer.ist.psu.edu/140518.html</p><p><FONT size="+1">Source: </FONT>http://www.wins.uva.nl/pub/functional/reports/SPE_flowgraph.ps.Z</p><p><FONT size="+1">Language: </FONT>en</p><p><FONT size="+1">Rights: </FONT>unrestricted</p><img src=15_140518.jpeg alt="Graph" /><FONT size="-1"><p>&lt;?xml&nbsp;&nbsp;&nbsp;version="1.0"&nbsp;&nbsp;&nbsp;encoding="UTF-8"?></p><p>&lt;references_metadata></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;rec&nbsp;&nbsp;&nbsp;ID="SELF"&nbsp;&nbsp;&nbsp;Type="SELF"&nbsp;&nbsp;&nbsp;CiteSeer_Book="SELF"&nbsp;&nbsp;&nbsp;CiteSeer_Volume="SELF"&nbsp;&nbsp;&nbsp;Title="Compilation&nbsp;&nbsp;&nbsp;of&nbsp;&nbsp;&nbsp;Functional&nbsp;&nbsp;&nbsp;Languages&nbsp;&nbsp;&nbsp;Using&nbsp;&nbsp;&nbsp;Flow&nbsp;&nbsp;&nbsp;Graph&nbsp;&nbsp;&nbsp;Analysis"></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;identifier&nbsp;&nbsp;&nbsp;Org="ISBN:3540559841"&nbsp;&nbsp;&nbsp;Paper_ID="SELF"&nbsp;&nbsp;&nbsp;Extracted="3540559841"&nbsp;&nbsp;&nbsp;DDC="005.4/53"&nbsp;&nbsp;&nbsp;Normalized_DDC="005453"&nbsp;&nbsp;&nbsp;Normalized_Weight="0.5"&nbsp;&nbsp;&nbsp;/></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;identifier&nbsp;&nbsp;&nbsp;Org="ISBN:3540584307"&nbsp;&nbsp;&nbsp;Paper_ID="SELF"&nbsp;&nbsp;&nbsp;Extracted="3540584307"&nbsp;&nbsp;&nbsp;DDC="004/.35"&nbsp;&nbsp;&nbsp;Normalized_DDC="00435"&nbsp;&nbsp;&nbsp;Normalized_Weight="0.5"&nbsp;&nbsp;&nbsp;/></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/rec></p><p>&lt;/references_metadata></p><p></p><p></body></HTML>
