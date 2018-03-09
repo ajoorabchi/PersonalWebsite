@@ -1,4 +1,4 @@
 # PersonalWebsite
 Personal Web Site
- <a href='https://github.com/ajoorabchi/PersonalWebsite/index.html'>https://github.com/ajoorabchi/PersonalWebsite/</a>.
+ <a href='https://ajoorabchi.github.io/PersonalWebsite/'>https://ajoorabchi.github.io/PersonalWebsite/</a>.
 
